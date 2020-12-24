@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    position: absolute;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: seagreen;
+    opacity: 90%;
+}
+body{
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background: crimson;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: black  1px  solid;
+}
+button {
+    background: steelblue;
+    color: aliceblue;
+    width: 100px;
+}
+button:hover {
+    background: blue;
+    color: aliceblue;
+}
+
+input[type='text'], input[type='email'] {
+    width: 150px;
+    margin: 20px;
+}
